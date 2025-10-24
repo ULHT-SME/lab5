@@ -45,7 +45,7 @@ Option 2: Create the project via Android Studio > File > New > New Flutter Proje
   - You may need the instalation of [Node.js](https://nodejs.org/en/download)
   - In a terminal in your computer run the following ```npm install -g firebase-tools```
 3. After success instalation of firebase-tools Run the following command: ```firebase login```. This will log you in to firebase, but in console. Some web browser prompts will pop
-4. Follow the steps in described in Firebase console by enabling the flutterfire_cli in dart: ```dart pub global activate flutterfire_cli````
+4. Follow the steps in described in Firebase console by enabling the flutterfire_cli in dart: ```dart pub global activate flutterfire_cli```
 5. Finally, in a terminal with root directory your project, execute the following command: ```flutterfire configure --project=<This ID is visible in firebase console instructions>```
 6. If everything ran correctly, you should have a new file under ```lib/firebase_options.dart```. This file is **extremely important** and cannot be deleted or else the connection of the project to Firebase is lost.
 
