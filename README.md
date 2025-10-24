@@ -71,7 +71,7 @@ flutter pub get
 ### ATTENTION: For Mac  Users
 
 If you are building for iOS, you will probably have issues building with Firebase dependencies.
-You need to add the following in your Podfile located under ``ìos```folder.
+You need to add the following in your Podfile located under ```ìos``` folder.
 
 ```
 post_install do |installer|
